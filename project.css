@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  #game-container {
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(255, 219, 110); /* Set the background color for the game area */
+    border: 5px solid #ff8c00; /* Set the outer border color */
+    border-radius: 10px;
+    width: 800px;
+    max-width: 90%;
+    height: 600px; /* Set the height of the game area */
+    display: flex;
+    flex-direction: column;
+  }
+
+  #output {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f0f0f0; /* Set the background color for the output area */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1; 
+    display: flex;
+    align-items: flex-end; 
+    text-align: left;
+  }
+
+  #input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+  }
