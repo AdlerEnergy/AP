@@ -2,6 +2,7 @@ body {
     background-color: black;
     font-family: 'Caveat', cursive, Arial, sans-serif; /* Apply Caveat font */
       text-align: center;
+      overflow: hidden;
   }
   
 #game-container {
@@ -12,7 +13,7 @@ body {
   border-radius: 10px;
   width: 800px;
   max-width: 90%;
-  height: 600px; /* Set the height of the game area */
+  height: 500px; /* Set the height of the game area */
   display: flex;
   flex-direction: column;
 }
@@ -42,4 +43,33 @@ body {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+
+
+#commands {
+  margin-top: 20px;
+}
+
+#commands h2 {
+  color: #333;
+}
+
+#commands ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#commands li {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#commands-container {
+  margin: 50px auto;
+  padding: 6px;
+  background-color: rgb(255, 219, 110);
+  border: 5px solid #ff8c00;
+  border-radius: 10px;
+  width: 400px; /* Adjust width as needed */
+  max-width: 90%;
 }
