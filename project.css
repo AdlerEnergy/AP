@@ -2,7 +2,6 @@ body {
     background-color: black;
     font-family: 'Caveat', cursive, Arial, sans-serif; /* Apply Caveat font */
       text-align: center;
-      overflow: hidden;
   }
   
 #game-container {
@@ -28,6 +27,7 @@ body {
   display: flex;
   align-items: flex-end; 
   text-align: left;
+  overflow: hidden;
 }
 
 #input {
