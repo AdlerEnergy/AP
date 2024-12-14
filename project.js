@@ -296,7 +296,7 @@ function doCommand(command, target)
                 if(gameProgress[4] == true)
                 {
                     updateOutput("You follow the eyes of the statue and find that they are pointing to an empty wall."+
-                    " You go over to the wall where the eyes were pointing a brush off the dust revealing a KEY HOLE.");
+                    " You go over to the wall where the eyes were pointing and brush off the dust revealing a KEY HOLE.");
                     currentRoom.addItemToRoom(keyHole);
                     gameProgress[6] = true;
                 }
